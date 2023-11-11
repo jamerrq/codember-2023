@@ -1,6 +1,3 @@
-import Data.Map (Map)
-import Data.List (intercalate)
-
 auxFunction :: String -> Integer -> String -> String
 auxFunction "" _ r = r
 auxFunction (x:xs) n r
