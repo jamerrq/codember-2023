@@ -1,7 +1,13 @@
 # Clues
 
-## 1. Check the mail :)
+## 1. Konami code
 
-## 2. Blurry image
+## 2. Check the mail :)
 
-## 3. Konami code
+## 3. Blurry image
+
+## 4. Try to throw some confetti
+
+## 5. Check the mail again :)
+
+## 6. Check the file CHANGELOG.txt (use the command `cat`)
