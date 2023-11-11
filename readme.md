@@ -11,3 +11,7 @@ TypeScript.
 [EN] If you are looking for clues, you can find them in the `clues` branch.
 
 [ES] Si estás buscando pistas, puedes encontrarlas en la rama `clues`.
+
+## My ranking and score 🔦
+
+![rank](imgs/rank.png)
