@@ -1,10 +1,10 @@
 auxFunction :: String -> Integer -> String -> String
 auxFunction "" _ r = r
 auxFunction (x:xs) n r
-    | x == '#' = auxFunction xs (n+1) r
-    | x == '@' = auxFunction xs (n-1) r
-    | x == '*' = auxFunction xs (n*n) r
-    | x == '&' = auxFunction xs n (r ++ show n)
+    | x == '#'  = auxFunction xs (n + 1) r
+    | x == '@'  = auxFunction xs (n - 1) r
+    | x == '*'  = auxFunction xs (n * n) r
+    | x == '&'  = auxFunction xs n (r ++ show n)
     | otherwise = auxFunction xs n r
 
 miniCompiler :: String -> String
