@@ -14,4 +14,4 @@ TypeScript.
 
 ## My ranking and score 🔦
 
-![rank](imgs/rank.png)
+![rank](imgs/rank2.png)
