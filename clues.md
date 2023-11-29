@@ -24,3 +24,8 @@ will find a file called `log_mars_mission.txt` that contains the secret.
 Again, you must gain access to the private folder, once there you will find a
 picture called `ai.webp` that you can view using the right command (`cat`).
 This person has been mentioned quite a few times in the previous days.
+
+## 10. Cowsay
+
+Read the changelog and enter the new command in the terminal.
+It's a very popular command in the npm world.
