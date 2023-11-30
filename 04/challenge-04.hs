@@ -2,22 +2,17 @@ import Data.List.Split (splitOn)
 
 
 firstIndex :: String -> Char -> Int
-firstIndex "" _ = -1
 firstIndex str c = do
   let (x:xs) = str
-  if x == c
-    then 0
-    else 1 + firstIndex xs c
+  if x == c then 0 else 1 + firstIndex xs c
 
 lastIndexAux :: String -> Char -> Int -> Int
-lastIndexAux "" _ _ = -1
 lastIndexAux str char index
   | index < 0 = -1
   | str !! index == char = index
   | otherwise = lastIndexAux str char (index - 1)
 
 lastIndex :: String -> Char -> Int
-lastIndex "" _ = -1
 lastIndex str c = lastIndexAux str c (length str - 1)
 
 isUnique :: String -> Char -> Bool
